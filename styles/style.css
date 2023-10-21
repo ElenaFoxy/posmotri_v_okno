@@ -65,7 +65,7 @@ ol {
 }
 
 input {
-  color: rgba(255 255 255 / 0.70);
+  color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -78,7 +78,7 @@ input {
 }
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255 255 255 / 0.70);
   font-family:  'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -298,7 +298,7 @@ button:active,
   background-color: #545050;
 }
 
-.search-form__checkbox-list:hover,
+.search-form__label:hover .search-form__label-text,
 button:hover,
 .content__card-link:hover {
   text-decoration: underline;
